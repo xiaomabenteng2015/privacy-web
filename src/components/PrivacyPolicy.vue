@@ -10,10 +10,14 @@
         <div class="section">
           <h2>1. Introduction</h2>
           <p>
-            This Privacy Policy describes how our English Learning App ("we", "our", or "us") handles your information when you use our mobile application (the "Service").
+            This Privacy Policy describes how our English Learning App ("we",
+            "our", or "us") handles your information when you use our mobile
+            application (the "Service").
           </p>
           <p>
-            <strong>Important:</strong> Our app is designed with privacy in mind. We do not collect, store, or transmit any personal data from your device.
+            <strong>Important:</strong> Our app is designed with privacy in
+            mind. We do not collect, store, or transmit any personal data from
+            your device.
           </p>
         </div>
 
@@ -21,7 +25,10 @@
           <h2>2. Information We Do NOT Collect</h2>
           <p>Our English Learning App does not collect any of the following:</p>
           <ul>
-            <li>Personal identification information (name, email, phone number, etc.)</li>
+            <li>
+              Personal identification information (name, email, phone number,
+              etc.)
+            </li>
             <li>Device information or identifiers</li>
             <li>Location data</li>
             <li>Usage analytics or statistics</li>
@@ -34,7 +41,8 @@
         <div class="section">
           <h2>3. Local Data Storage</h2>
           <p>
-            All your learning progress, vocabulary lists, and study data are stored locally on your device only. This information:
+            All your learning progress, vocabulary lists, and study data are
+            stored locally on your device only. This information:
           </p>
           <ul>
             <li>Never leaves your device</li>
@@ -47,50 +55,59 @@
         <div class="section">
           <h2>4. Third-Party Services</h2>
           <p>
-            Our app does not integrate with any third-party services, analytics platforms, advertising networks, or external APIs. We do not share any information with third parties because we do not collect any information.
+            Our app does not integrate with any third-party services, analytics
+            platforms, advertising networks, or external APIs. We do not share
+            any information with third parties because we do not collect any
+            information.
           </p>
         </div>
 
         <div class="section">
           <h2>5. Internet Connection</h2>
           <p>
-            Our app functions completely offline and does not require an internet connection. No data is transmitted over the internet during normal app usage.
+            Our app functions completely offline and does not require an
+            internet connection. No data is transmitted over the internet during
+            normal app usage.
           </p>
         </div>
 
         <div class="section">
           <h2>6. Children's Privacy</h2>
           <p>
-            Our app is safe for users of all ages, including children under 13. Since we do not collect any personal information, there are no special privacy concerns for younger users.
+            Our app is safe for users of all ages, including children under 13.
+            Since we do not collect any personal information, there are no
+            special privacy concerns for younger users.
           </p>
         </div>
 
         <div class="section">
           <h2>7. Data Security</h2>
           <p>
-            Since all data remains on your device and we do not collect or transmit any information, the security of your data is entirely under your control through your device's built-in security features.
+            Since all data remains on your device and we do not collect or
+            transmit any information, the security of your data is entirely
+            under your control through your device's built-in security features.
           </p>
         </div>
 
         <div class="section">
           <h2>8. Changes to This Privacy Policy</h2>
           <p>
-            We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+            We may update our Privacy Policy from time to time. We will notify
+            you of any changes by posting the new Privacy Policy on this page
+            and updating the "Last updated" date.
           </p>
         </div>
 
         <div class="section">
           <h2>9. Contact Us</h2>
           <p>
-            If you have any questions about this Privacy Policy, please contact us at:
+            If you have any questions about this Privacy Policy, please contact
+            us at:
           </p>
           <div class="contact-info">
             <p><strong>Email:</strong>cs@bg.exchange</p>
             <!-- <p><strong>Address:</strong> [Your Company Address]</p> -->
           </div>
-          <p class="note">
-            <em>Note: Please replace the contact information above with your actual contact details.</em>
-          </p>
         </div>
       </div>
     </div>
@@ -98,9 +115,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-const lastUpdated = ref('September 2025')
+const lastUpdated = ref("September 2025");
 </script>
 
 <style scoped>
@@ -194,7 +211,7 @@ const lastUpdated = ref('September 2025')
 }
 
 .section li::before {
-  content: '✓';
+  content: "✓";
   position: absolute;
   left: 0;
   color: #28a745;
@@ -244,20 +261,20 @@ strong {
   .policy-header {
     padding: 2rem 1rem;
   }
-  
+
   .policy-header h1 {
     font-size: 2.5rem;
   }
-  
+
   .policy-content {
     padding: 2rem 1rem;
     gap: 1.5rem;
   }
-  
+
   .section {
     padding: 1.5rem;
   }
-  
+
   .section h2 {
     font-size: 1.5rem;
   }
@@ -267,11 +284,11 @@ strong {
   .policy-header h1 {
     font-size: 2rem;
   }
-  
+
   .section h2 {
     font-size: 1.3rem;
   }
-  
+
   .section p,
   .section li {
     font-size: 1rem;
