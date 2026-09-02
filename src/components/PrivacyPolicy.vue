@@ -53,8 +53,7 @@
         </div>
 
         <div id="data-deletion" class="section">
-          <h2>4. Data Deletion / 数据删除</h2>
-          <p><strong>English</strong></p>
+          <h2>4. Data Deletion</h2>
           <p>
             EnTeacher lets you delete all locally stored learning data
             directly within the app — no need to contact the developer.
@@ -73,22 +72,6 @@
           <p>
             EnTeacher does not upload any user data to a server or third
             party — all data is stored locally on your device only.
-          </p>
-          <p><strong>中文</strong></p>
-          <p>
-            EnTeacher 支持在应用内一键清除所有本地学习数据，无需联系开发者。
-          </p>
-          <p><strong>操作步骤：</strong></p>
-          <ol class="steps-list">
-            <li>打开 EnTeacher App</li>
-            <li>在首页找到"清除学习数据"（Clear Learning Data）按钮</li>
-            <li>点击后在弹窗中确认清除</li>
-          </ol>
-          <p>
-            点击确认后，应用会立即删除设备上保存的全部学习进度、单词掌握状态、统计数据和学习历史记录，此操作不可撤销。
-          </p>
-          <p>
-            EnTeacher 不会将任何用户数据上传至服务器或第三方，所有数据仅保存在用户设备本地。
           </p>
         </div>
 
@@ -157,7 +140,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-const lastUpdated = ref("September 2025");
+const lastUpdated = ref("September 2026");
 </script>
 
 <style scoped>
