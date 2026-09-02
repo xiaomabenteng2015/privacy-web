@@ -52,8 +52,48 @@
           </ul>
         </div>
 
+        <div id="data-deletion" class="section">
+          <h2>4. Data Deletion / 数据删除</h2>
+          <p><strong>English</strong></p>
+          <p>
+            EnTeacher lets you delete all locally stored learning data
+            directly within the app — no need to contact the developer.
+          </p>
+          <p><strong>Steps:</strong></p>
+          <ol class="steps-list">
+            <li>Open the EnTeacher app</li>
+            <li>On the home screen, tap "Clear Learning Data"</li>
+            <li>Confirm the deletion in the dialog that appears</li>
+          </ol>
+          <p>
+            This permanently deletes all learning progress, word mastery
+            status, statistics, and session history stored on your device.
+            This action cannot be undone.
+          </p>
+          <p>
+            EnTeacher does not upload any user data to a server or third
+            party — all data is stored locally on your device only.
+          </p>
+          <p><strong>中文</strong></p>
+          <p>
+            EnTeacher 支持在应用内一键清除所有本地学习数据，无需联系开发者。
+          </p>
+          <p><strong>操作步骤：</strong></p>
+          <ol class="steps-list">
+            <li>打开 EnTeacher App</li>
+            <li>在首页找到"清除学习数据"（Clear Learning Data）按钮</li>
+            <li>点击后在弹窗中确认清除</li>
+          </ol>
+          <p>
+            点击确认后，应用会立即删除设备上保存的全部学习进度、单词掌握状态、统计数据和学习历史记录，此操作不可撤销。
+          </p>
+          <p>
+            EnTeacher 不会将任何用户数据上传至服务器或第三方，所有数据仅保存在用户设备本地。
+          </p>
+        </div>
+
         <div class="section">
-          <h2>4. Third-Party Services</h2>
+          <h2>5. Third-Party Services</h2>
           <p>
             Our app does not integrate with any third-party services, analytics
             platforms, advertising networks, or external APIs. We do not share
@@ -63,7 +103,7 @@
         </div>
 
         <div class="section">
-          <h2>5. Internet Connection</h2>
+          <h2>6. Internet Connection</h2>
           <p>
             Our app functions completely offline and does not require an
             internet connection. No data is transmitted over the internet during
@@ -72,7 +112,7 @@
         </div>
 
         <div class="section">
-          <h2>6. Children's Privacy</h2>
+          <h2>7. Children's Privacy</h2>
           <p>
             Our app is safe for users of all ages, including children under 13.
             Since we do not collect any personal information, there are no
@@ -81,7 +121,7 @@
         </div>
 
         <div class="section">
-          <h2>7. Data Security</h2>
+          <h2>8. Data Security</h2>
           <p>
             Since all data remains on your device and we do not collect or
             transmit any information, the security of your data is entirely
@@ -90,7 +130,7 @@
         </div>
 
         <div class="section">
-          <h2>8. Changes to This Privacy Policy</h2>
+          <h2>9. Changes to This Privacy Policy</h2>
           <p>
             We may update our Privacy Policy from time to time. We will notify
             you of any changes by posting the new Privacy Policy on this page
@@ -99,7 +139,7 @@
         </div>
 
         <div class="section">
-          <h2>9. Contact Us</h2>
+          <h2>10. Contact Us</h2>
           <p>
             If you have any questions about this Privacy Policy, please contact
             us at:
@@ -217,6 +257,29 @@ const lastUpdated = ref("September 2025");
   color: #28a745;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.section {
+  scroll-margin-top: 2rem;
+}
+
+.steps-list {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  counter-reset: none;
+}
+
+.steps-list li {
+  line-height: 1.7;
+  color: #495057;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  list-style: decimal;
+  padding-left: 0.5rem;
+}
+
+.steps-list li::before {
+  content: none;
 }
 
 .contact-info {
